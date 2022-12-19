@@ -1,0 +1,56 @@
+.counter-wrap {
+    width: 30%;
+    margin: 0 auto;
+    background-color: rgb(225, 225, 225);
+    border-radius: 1rem 1rem 5px 5px;
+    text-align: left;
+}
+
+.counter-wrap .counter-title {
+    border-radius: 1rem 1rem 0 0;
+    background-color: orange;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.counter-content {
+    padding: 3rem 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: rgb(65, 49, 246);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: rgb(51, 36, 225);
+}
+
+.btn-secondary {
+    background-color: rgb(248, 163, 4);
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(228, 152, 10);
+}
+
+@media only screen and (max-width: 992px) {
+    .counter-wrap {
+        width: 80%;
+    }
+}
